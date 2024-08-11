@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Account/E-Wallet Checker</string>
+    <string name="choose_account_type">Choose Account Type</string>
+    <string name="bank_account">Bank Account</string>
+    <string name="e_wallet_account">E-Wallet Account</string>
+    <string name="bank_e_wallet_number">Input Account Number</string>
+    <string name="check_button">Check</string>
+    <string name="choose_autocomplete">Input Bank Name</string>
+    <string name="no_e_wallet_found">No E-Wallet found</string>
+    <string name="no_bank_found">No bank found</string>
+    <string name="response_error">Response Error: %1$s</string>
+    <string name="network_error">Network Error: %1$s</string>
+    <string name="input_bank_name">Input Bank Name</string>
+    <string name="input_account_number">Input Account Number</string>
+    <string name="input_e_wallet_name">Input E-Wallet Name</string>
+    <string name="input_e_wallet_number">Input E-Wallet Number</string>
+    <string name="profile_desc">Profile</string>
+    <string name="exit_toast">Click again to exit</string>
+    <string name="do_not_empty">Nothing must be left empty!</string>
+    <string name="please_fill_correctly">Please fill correctly!</string>
+
+</resources>

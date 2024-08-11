@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:paddingBottom="10dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="0dp"
+                android:contentDescription="@string/profile_desc"
+                android:padding="0dp"
+                android:scaleType="centerInside"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:src="@drawable/profile" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_account_type" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupAccountType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioBankAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/bank_account" />
+
+            <RadioButton
+                android:id="@+id/radioEWalletAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/e_wallet_account" />
+        </RadioGroup>
+
+        <AutoCompleteTextView
+            android:id="@+id/choose_autocomplete"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/choose_autocomplete" />
+
+        <EditText
+            android:id="@+id/editTextAccountNumber"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:autofillHints="creditCardNumber"
+            android:hint="@string/bank_e_wallet_number"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/buttonFetch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_button" />
+
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

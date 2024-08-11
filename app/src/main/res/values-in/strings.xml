@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cek Rekening/E-Wallet</string>
+    <string name="choose_account_type">Pilih Tipe Akun</string>
+    <string name="bank_account">Akun Bank</string>
+    <string name="e_wallet_account">Akun E-Wallet</string>
+    <string name="bank_e_wallet_number">Masukkan Nomor Rekening</string>
+    <string name="check_button">Cek</string>
+    <string name="choose_autocomplete">Masukkan Nama Bank</string>
+    <string name="no_e_wallet_found">E-Wallet tidak ditemukan</string>
+    <string name="no_bank_found">Bank tidak ditemukan</string>
+    <string name="response_error">Kesalahan Respon: %1$s</string>
+    <string name="network_error">Kesalahan Jaringan: %1$s</string>
+    <string name="input_bank_name">Masukkan Nama Bank</string>
+    <string name="input_account_number">Masukkan Nomor Rekening</string>
+    <string name="input_e_wallet_name">Masukkan Nama E-Wallet</string>
+    <string name="input_e_wallet_number">Masukkan Nomor E-Wallet</string>
+    <string name="profile_desc">Profil</string>
+    <string name="exit_toast">Tekan sekali lagi untuk keluar</string>
+    <string name="do_not_empty">Tidak boleh ada yang dikosongkan!</string>
+    <string name="please_fill_correctly">Harap isi dengan benar!</string>
+</resources>
